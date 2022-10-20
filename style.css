@@ -27,7 +27,7 @@ body {
     margin-right: 20px;
 }
 
-.center{
+.center {
     align-items: center;
     display: flex;
 }
@@ -50,7 +50,7 @@ body {
     font-size: 15px;
 }
 
-input:focus{
+input:focus {
     border: 1px solid #ddd;
     outline: none;
 }
@@ -59,21 +59,134 @@ input:focus{
     width: 60px;
 }
 
-#mic{
-margin:10px ;
+#mic {
+    margin: 10px;
 }
 
-.material-icons{
-    color:rgb(100,100,100) ;
-    padding:0 7px;
+.material-icons {
+    color: rgb(100, 100, 100);
+    padding: 0 7px;
     cursor: pointer;
 }
 
-.main{
+.right {
+    margin-right: 20px;
+}
+
+.main {
+    display: flex;
+    padding-top: 30px;
+    height: calc(100vh - 60px);
+    background-color: #f9f9f9;
+}
+
+.content {
+    display: block;
+    height: 100%;
+    width: 70%;
+    margin-left: 130px;
+}
+
+.first-content {
+    display: flex;
+}
+
+iframe {
+    height: 700px;
     width: 100%;
 }
 
-.content{
- 
-    background-color: blueviolet;
+.sidebar {
+    height: 100%;
+    width: 30%;
+}
+
+.videos {
+    display: block;
+    padding-left: 20px;
+}
+
+.video {
+    display: flex;
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+.thumbnail {
+    width: 60%;
+}
+
+.thumbnail img {
+    object-fit: cover;
+    height: 94%;
+    width: 100%;
+}
+
+.details {
+    display: flex;
+    margin-left: 5px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.title h3 {
+    color: rgb(3, 3, 3);
+    line-height: 22px;
+    font-size: 16px;
+    margin-bottom: 6px;
+    padding: 2px 0;
+}
+
+.author img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.title a,
+span {
+    text-decoration: none;
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    padding: 2px 0;
+}
+
+.video_name {
+    margin-top: 15px;
+}
+
+.account {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+
+.account .details {
+    margin-top: 12px;
+}
+
+.details a {
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.account button {
+    background-color: red;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+}
+
+.reactions {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px;
 }
