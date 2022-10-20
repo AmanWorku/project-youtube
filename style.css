@@ -190,3 +190,42 @@ span {
     justify-content: space-evenly;
     padding: 25px;
 }
+
+.content hr {
+    width: 90%;
+    width: auto;
+    height: 1px solid #333;
+}
+
+.comment {
+    display: block;
+    width: 100%;
+}
+
+.comment-stats {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.comment .details {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.comment .title {
+    font-weight: 100;
+}
+
+.submitted-comments {
+    display: flex;
+    align-items: center;
+}
+
+.comment input {
+    width: 1000px;
+    border: none;
+    border-bottom: 1px solid #333;
+    padding: 5px;
+    margin-top: 8px;
+}
