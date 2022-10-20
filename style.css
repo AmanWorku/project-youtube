@@ -27,6 +27,11 @@ body {
     margin-right: 20px;
 }
 
+.center{
+    align-items: center;
+    display: flex;
+}
+
 .search {
     display: flex;
 }
@@ -45,6 +50,30 @@ body {
     font-size: 15px;
 }
 
+input:focus{
+    border: 1px solid #ddd;
+    outline: none;
+}
+
 .search button {
     width: 60px;
+}
+
+#mic{
+margin:10px ;
+}
+
+.material-icons{
+    color:rgb(100,100,100) ;
+    padding:0 7px;
+    cursor: pointer;
+}
+
+.main{
+    width: 100%;
+}
+
+.content{
+ 
+    background-color: blueviolet;
 }
